@@ -1,0 +1,268 @@
+[2025-01-20T06:46:26.985852+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.986872+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.986973+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987052+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987124+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987202+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987282+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987353+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987424+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987494+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987565+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987635+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987703+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987772+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987841+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.987911+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.988059+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.988135+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-20T06:46:26.988259+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-20T06:46:26.988339+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-20T06:46:26.988411+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-20T06:46:26.988480+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-20T06:46:26.988549+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-01-20T06:46:26.988636+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-20T06:46:26.988712+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-20T06:46:26.988792+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-01-20T06:46:34.231900+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-21T13:47:47.576782+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.577876+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.578107+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.578300+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.578487+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.578700+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.578889+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.579057+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.579226+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.579384+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.579534+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.579691+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.579843+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.580008+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.580174+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.580333+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.580640+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.580816+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-21T13:47:47.581066+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-21T13:47:47.581234+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-21T13:47:47.581422+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-21T13:47:47.581577+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-21T13:47:47.581728+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-01-21T13:47:47.581914+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-21T13:47:47.582083+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-21T13:47:47.582252+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-01-21T13:47:55.976742+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-21T14:35:03.299121+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-22T10:01:39.031764+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033030+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033125+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033216+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033292+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033372+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033446+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033521+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033594+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033699+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033774+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033846+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033918+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.033989+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.034061+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.034145+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.034294+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.034373+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:39.034496+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:39.034572+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:39.034645+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:39.034714+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:39.034783+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-01-22T10:01:39.034883+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:39.034956+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:39.035034+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-01-22T10:01:46.553178+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553376+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553464+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553543+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553618+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553696+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553769+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553842+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553915+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.553988+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554065+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554149+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554222+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554293+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554363+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554442+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554589+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554665+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-22T10:01:46.554783+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:46.554858+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:46.554929+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:46.554999+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:46.555068+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-01-22T10:01:46.555160+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:46.555237+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-22T10:01:46.555315+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-01-22T10:02:11.905528+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-23T00:05:42.959206+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.960923+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961029+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961111+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961195+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961364+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961446+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961519+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961591+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961662+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961733+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961804+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961873+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.961943+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.962013+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.962084+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.962279+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.962397+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-01-23T00:05:42.962520+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-23T00:05:42.962595+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-23T00:05:42.962667+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-23T00:05:42.962736+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-23T00:05:42.962806+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-01-23T00:05:42.962893+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-23T00:05:42.962966+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-01-23T00:05:42.963045+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-01-23T00:06:37.587540+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-23T00:07:01.553973+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-23T00:07:13.107528+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-23T00:08:03.114579+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-23T00:08:59.439865+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-23T00:09:06.053390+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-23T12:20:09.136183+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-01-26T09:57:46.243666+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T09:57:46.290936+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T09:57:46.378528+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T09:57:46.458545+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T09:57:46.493346+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T09:57:46.581313+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T09:57:48.137297+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:00:24.444450+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:00:24.482122+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:00:24.573085+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:00:24.656041+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:00:24.690685+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:00:24.779836+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:00:26.268592+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:01:07.939475+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:01:07.977668+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:01:08.068881+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:01:08.149563+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:01:08.184856+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:01:08.274882+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:01:09.754856+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:02:19.575087+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:03:03.310535+00:00] main.INFO: Received ID: 24 [] []
+[2025-01-26T10:04:02.094945+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:04:02.095644+00:00] main.INFO: Incoming blog data: Array
+(
+    [entity_id] => 21
+    [user_id] => 123
+    [title] => Updated Blog
+    [content] => This blog has been updated.
+    [status] => 1
+    [created_at] => 2025-01-04 08:29:06
+    [updated_at] => 2025-01-26 10:04:02
+    [products] => product1,product3
+)
+ [] []
+[2025-01-26T10:04:21.557868+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:10:14.151470+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:10:28.584874+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:11:42.730142+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:11:42.767079+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:11:42.853639+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:11:42.934880+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:11:42.969619+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:11:43.056548+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:11:44.413407+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:12:04.317910+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:12:35.326562+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:12:35.364264+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:12:35.450969+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:12:35.553236+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:12:35.589190+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:12:35.679940+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:12:37.103416+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-01-26T10:12:54.823998+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:13:07.977551+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:13:21.472078+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:14:15.876879+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:15:40.230304+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:15:42.636149+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:16:38.959795+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:18:59.611555+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:19:17.826130+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:32:07.790772+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:32:19.350152+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:32:26.531369+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:32:51.945580+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:33:11.172050+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:33:15.537460+00:00] main.INFO: Received ID: 21 [] []
+[2025-01-26T10:44:12.721541+00:00] main.ERROR: Command "cache:flush]" is not defined.
+
+Did you mean one of these?
+    cache:clean
+    cache:disable
+    cache:enable
+    cache:flush
+    cache:status
+#0 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cache:flush]')
+#1 /var/www/html/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2025-01-26T11:21:52.232345+00:00] main.INFO: Incoming blog data: Array
+(
+    [title] => New Blog
+    [content] => This is a new blog.
+    [status] => 1
+    [user_id] => 2
+    [products] => product1,product2
+    [created_at] => 2025-01-26 11:21:52
+    [updated_at] => 2025-01-26 11:21:52
+)
+ [] []
+[2025-01-26T11:24:26.989302+00:00] main.INFO: Incoming blog data: Array
+(
+    [title] => New Blog
+    [content] => This is a new blog.
+    [status] => 1
+    [user_id] => 2
+    [products] => product1,product2
+    [created_at] => 2025-01-26 11:24:26
+    [updated_at] => 2025-01-26 11:24:26
+)
+ [] []
+[2025-01-26T11:24:43.601485+00:00] main.INFO: Incoming blog data: Array
+(
+    [title] => New Blog
+    [content] => This is a new blog.
+    [status] => 1
+    [user_id] => 2
+    [products] => product1,product2
+    [created_at] => 2025-01-26 11:24:43
+    [updated_at] => 2025-01-26 11:24:43
+)
+ [] []
+[2025-01-26T11:26:31.129141+00:00] main.INFO: Incoming blog data: Array
+(
+    [title] => New Blog
+    [content] => This is a new blog.
+    [status] => 1
+    [user_id] => 2
+    [products] => product1,product2
+    [created_at] => 2025-01-26 11:26:31
+    [updated_at] => 2025-01-26 11:26:31
+)
+ [] []
+[2025-01-26T11:26:36.757943+00:00] main.INFO: Received ID: 21 [] []

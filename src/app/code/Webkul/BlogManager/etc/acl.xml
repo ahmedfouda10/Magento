@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <!-- Admin resources -->
+            <resource id="Magento_Backend::admin">
+                <resource id="Webkul_BlogManager::blogmanager" title="Blogs Menu" sortOrder="90">
+                    <resource id="Webkul_BlogManager::manage" title="Blogs" translate="title" sortOrder="50">
+                        <resource id="Webkul_BlogManager::add" title="Add Blog" translate="title" sortOrder="10"/>
+                        <resource id="Webkul_BlogManager::edit" title="Edit Blog" translate="title" sortOrder="20"/>
+                        <resource id="Webkul_BlogManager::save" title="Save Blog" translate="title" sortOrder="30"/>
+                        <resource id="Webkul_BlogManager::delete" title="Delete Blog" translate="title" sortOrder="40"/>
+                    </resource>
+                </resource>
+            </resource>
+
+            <!-- Customer resources at ROOT level (not under admin) -->
+            <!-- <resource id="Magento_Customer::customer">
+                <resource id="Webkul_BlogManager::customer_blog" title="Customer Blog Operations" sortOrder="100">
+                    <resource id="Webkul_BlogManager::customer_blog_create" title="Create Blog" sortOrder="10"/>
+                    <resource id="Webkul_BlogManager::customer_blog_edit" title="Edit Blog" sortOrder="20"/>
+                    <resource id="Webkul_BlogManager::customer_blog_delete" title="Delete Blog" sortOrder="30"/>
+                </resource>
+            </resource> -->
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,32 @@
+<div class="hello-list-table-container">
+    <table class="hello-list-table">
+        <tr class="hello-list-table-head">
+            <th class="hello-list-table-id">
+                <?= __("ID") ?>
+            </th>
+            <th class="hello-list-table-name">
+                <?= __("Name") ?>
+            </th>
+            <th class="hello-list-table-name">
+                <?= __("Edit") ?>
+            </th>
+        </tr>
+    <?php
+        $id = $block->getCustomerId();
+        $name = $block->getCustomerName();
+    ?>
+    <tr class="hello-list-table-row">
+            <td class="hello-list-table-id">
+                <?= $escaper->escapeHtml($id) ?>
+            </td>
+            <td class="hello-list-table-name">
+                <?= $escaper->escapeHtml($name) ?>
+            </td>
+            <td class="hello-list-table-name">
+                <a href="<?= $escaper->escapeUrl($block->getUrl('helloworld/hello/edit', ['id'=>$id]))?>">
+                    <?= __('Edit') ?>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,27 @@
+<?php
+$blogs = $block->getCollection();
+?>
+<div class="blog-collection-wrapper">
+    <div class="blog-published">
+        <?php
+        foreach ($blogs as $blog) { ?>
+            <div class="blog-item">
+                <div class="blog-item-title">
+                    <a href="<?= $escaper->escapeUrl($block->getUrl('blog/index/view', ['id'=>$escaper->escapeHtml($blog->getId())]))?>"><?= $escaper->escapeHtml($blog->getTitle()); ?></a>
+                </div>
+                <div class="blog-item-details">
+                    <div><?= __("Created At:").' '.$escaper->escapeHtml($block->getFormattedDate($escaper->escapeHtml($blog->getCreatedAt()))); ?></div>
+                    <div><?= __("Author:").' '.$block->getAuthor($blog->getUserId()); ?></div>
+                </div>
+                <div class="blog-item-content">
+                    <?= strlen($escaper->escapeHtml($blog->getContent()))<100 ? $escaper->escapeHtml($blog->getContent()) : substr($escaper->escapeHtml($blog->getContent()),0,100).'...'; ?>
+                    <div class="blog-item-view">
+                        <a href="<?= $escaper->escapeUrl($block->getUrl('blog/index/view', ['id'=>$escaper->escapeHtml($blog->getId())]))?>"><?= __('view'); ?></a>
+                    </div>
+                </div>
+            </div>
+        <?php
+        } ?>
+        <?= $block->getPagerHtml(); ?>
+    </div>
+</div>

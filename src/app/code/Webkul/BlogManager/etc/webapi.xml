@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <!-- نقطة النهاية لاسترجاع جميع المدونات -->
+    <route url="/V1/blogs" method="GET">
+        <service class="Webkul\BlogManager\Api\BlogRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+        <data>
+            <parameter name="searchCriteria" force="true">%searchCriteria%</parameter>
+        </data>
+    </route>
+
+    <route url="/V1/blogs/:id" method="GET">
+        <service class="Webkul\BlogManager\Api\BlogRepositoryInterface" method="getById"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+    </route>
+    <!-- نقطة النهاية لإنشاء تدوينة جديدة -->
+    <route url="/V1/blogs" method="POST">
+    <service class="Webkul\BlogManager\Api\BlogRepositoryInterface" method="save"/>
+    <resources>
+        <resource ref="self"/>
+    </resources>
+</route>
+
+    <!-- نقطة النهاية لتعديل تدوينة -->
+    <route url="/V1/blogs/:id" method="PUT">
+        <service class="Webkul\BlogManager\Api\BlogRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+    </route>
+
+    <!-- نقطة النهاية لحذف تدوينة -->
+<route url="/V1/blogs/:id" method="DELETE">
+    <service class="Webkul\BlogManager\Api\BlogRepositoryInterface" method="deleteById"/>
+    <resources>
+        <resource ref="self"/>
+    </resources>
+</route>
+
+</routes>

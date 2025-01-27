@@ -1,0 +1,404 @@
+[2025-01-22T10:05:27.376036+00:00] main.ERROR: Could not find a cart with ID "1WxKm8WUm3uFKXLlHXezew5WREfVRPAn"
+
+GraphQL (2:3)
+1: query myCartQuery{
+2:   cart(cart_id: "1WxKm8WUm3uFKXLlHXezew5WREfVRPAn") {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Could not find a cart with ID \"1WxKm8WUm3uFKXLlHXezew5WREfVRPAn\" at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Magento\\Framework\\GraphQl\\Exception\\GraphQlNoSuchEntityException(code: 0): Could not find a cart with ID \"1WxKm8WUm3uFKXLlHXezew5WREfVRPAn\" at /var/www/html/vendor/magento/module-quote-graph-ql/Model/Cart/GetCartForUser.php:80)"} []
+[2025-01-26T10:03:19.955419+00:00] main.ERROR: Non-static method Magento\Framework\Api\SearchCriteriaBuilder::create() cannot be called statically
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Non-static method Magento\\Framework\\Api\\SearchCriteriaBuilder::create() cannot be called statically at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Non-static method Magento\\Framework\\Api\\SearchCriteriaBuilder::create() cannot be called statically at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:54)"} []
+[2025-01-26T10:03:44.726771+00:00] main.ERROR: Webkul\BlogManager\Model\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\BlogManager\Api\Data\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 25
+
+GraphQL (2:3)
+1: mutation {
+2:   createBlog(input: {
+     ^
+3:     title: "New Blog",
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Webkul\\BlogManager\\Model\\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\\BlogManager\\Api\\Data\\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 25 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (TypeError(code: 0): Webkul\\BlogManager\\Model\\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\\BlogManager\\Api\\Data\\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 25 at /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php:107)"} []
+[2025-01-26T10:04:39.170567+00:00] main.ERROR: Field "deleteBlog" of type "Boolean" must not have a sub selection.
+
+GraphQL (2:22)
+1: mutation {
+2:   deleteBlog(id: 21) {
+                        ^
+3:     id
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Field \"deleteBlog\" of type \"Boolean\" must not have a sub selection. at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/ScalarLeafs.php:24)"} []
+[2025-01-26T10:10:28.596124+00:00] main.ERROR: Cannot return null for non-nullable field "Blog.id".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (GraphQL\\Error\\InvariantViolation(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Executor/ReferenceExecutor.php:911)"} []
+[2025-01-26T10:10:52.796816+00:00] main.ERROR: Cannot query field "EntityId" on type "Blog".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     EntityId
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot query field \"EntityId\" on type \"Blog\". at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/FieldsOnCorrectType.php:43)"} []
+[2025-01-26T10:12:45.708676+00:00] main.ERROR: Cannot query field "EntityId" on type "Blog".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     EntityId
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot query field \"EntityId\" on type \"Blog\". at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/FieldsOnCorrectType.php:43)"} []
+[2025-01-26T10:12:54.825179+00:00] main.ERROR: Cannot return null for non-nullable field "Blog.id".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (GraphQL\\Error\\InvariantViolation(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Executor/ReferenceExecutor.php:911)"} []
+[2025-01-26T10:13:07.978604+00:00] main.ERROR: Cannot return null for non-nullable field "Blog.id".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (GraphQL\\Error\\InvariantViolation(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Executor/ReferenceExecutor.php:911)"} []
+[2025-01-26T10:13:21.473087+00:00] main.ERROR: Cannot return null for non-nullable field "Blog.id".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (GraphQL\\Error\\InvariantViolation(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Executor/ReferenceExecutor.php:911)"} []
+[2025-01-26T10:15:01.154792+00:00] main.ERROR: Cannot query field "id" on type "Blog".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot query field \"id\" on type \"Blog\". at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/FieldsOnCorrectType.php:43)"} []
+[2025-01-26T10:15:18.221479+00:00] main.ERROR: Cannot query field "id" on type "Blog".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot query field \"id\" on type \"Blog\". at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/FieldsOnCorrectType.php:43)"} []
+[2025-01-26T10:15:30.598772+00:00] main.ERROR: Cannot query field "id" on type "Blog".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot query field \"id\" on type \"Blog\". at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/FieldsOnCorrectType.php:43)"} []
+[2025-01-26T10:16:09.235486+00:00] main.ERROR: Cannot query field "id" on type "Blog".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot query field \"id\" on type \"Blog\". at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/FieldsOnCorrectType.php:43)"} []
+[2025-01-26T10:16:38.961082+00:00] main.ERROR: Cannot return null for non-nullable field "Blog.id".
+
+GraphQL (3:5)
+2:   getBlog(id: 21) {
+3:     id
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (GraphQL\\Error\\InvariantViolation(code: 0): Cannot return null for non-nullable field \"Blog.id\". at /var/www/html/vendor/webonyx/graphql-php/src/Executor/ReferenceExecutor.php:911)"} []
+[2025-01-26T10:17:56.772677+00:00] main.ERROR: Unknown argument "id" on field "getBlog" of type "Query".
+
+GraphQL (2:11)
+1: query {
+2:   getBlog(id: 21) {
+             ^
+3:     EntityId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Unknown argument \"id\" on field \"getBlog\" of type \"Query\". at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/KnownArgumentNames.php:44)"} []
+[2025-01-26T10:17:56.772869+00:00] main.ERROR: Field "getBlog" argument "EntityId" of type "Int!" is required but not provided.
+
+GraphQL (2:3)
+1: query {
+2:   getBlog(id: 21) {
+     ^
+3:     EntityId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Field \"getBlog\" argument \"EntityId\" of type \"Int!\" is required but not provided. at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/ProvidedRequiredArguments.php:38)"} []
+[2025-01-26T10:18:15.756575+00:00] main.ERROR: Id is required
+
+GraphQL (2:3)
+1: query {
+2:   getBlog(EntityId: 21) {
+     ^
+3:     EntityId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Id is required at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Id is required at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlog.php:20)"} []
+[2025-01-26T10:32:07.791824+00:00] main.ERROR: Cannot return null for non-nullable field "Blog.EntityId".
+
+GraphQL (3:5)
+2:   getBlog(EntityId: 21) {
+3:     EntityId
+       ^
+4:     userId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot return null for non-nullable field \"Blog.EntityId\". at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (GraphQL\\Error\\InvariantViolation(code: 0): Cannot return null for non-nullable field \"Blog.EntityId\". at /var/www/html/vendor/webonyx/graphql-php/src/Executor/ReferenceExecutor.php:911)"} []
+[2025-01-26T10:32:51.946752+00:00] main.ERROR: Warning: Undefined property: Webkul\BlogManager\Model\Blog::$entity_id in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlog.php on line 25
+
+GraphQL (2:3)
+1: query {
+2:   getBlog(EntityId: 21) {
+     ^
+3:     EntityId
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: Undefined property: Webkul\\BlogManager\\Model\\Blog::$entity_id in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlog.php on line 25 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: Undefined property: Webkul\\BlogManager\\Model\\Blog::$entity_id in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlog.php on line 25 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T10:37:28.790646+00:00] main.ERROR: Non-static method Magento\Framework\Api\SearchCriteriaBuilder::create() cannot be called statically
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Non-static method Magento\\Framework\\Api\\SearchCriteriaBuilder::create() cannot be called statically at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Non-static method Magento\\Framework\\Api\\SearchCriteriaBuilder::create() cannot be called statically at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:48)"} []
+[2025-01-26T10:38:06.855627+00:00] main.ERROR: Non-static method Magento\Framework\Api\SearchCriteriaBuilder::create() cannot be called statically
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Non-static method Magento\\Framework\\Api\\SearchCriteriaBuilder::create() cannot be called statically at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Non-static method Magento\\Framework\\Api\\SearchCriteriaBuilder::create() cannot be called statically at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:49)"} []
+[2025-01-26T10:39:15.276920+00:00] main.ERROR: Non-static method Magento\Framework\Api\SearchCriteriaBuilder::create() cannot be called statically
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Non-static method Magento\\Framework\\Api\\SearchCriteriaBuilder::create() cannot be called statically at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Non-static method Magento\\Framework\\Api\\SearchCriteriaBuilder::create() cannot be called statically at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:49)"} []
+[2025-01-26T10:42:56.654807+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:27)"} []
+[2025-01-26T10:43:15.272708+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:27)"} []
+[2025-01-26T10:44:03.701648+00:00] main.ERROR: Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T10:44:09.384788+00:00] main.ERROR: Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T10:44:27.379539+00:00] main.ERROR: Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T10:45:25.153823+00:00] main.ERROR: Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T10:45:45.493430+00:00] main.ERROR: Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: Undefined variable $searchCriteria in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 22 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T10:46:40.830877+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:29)"} []
+[2025-01-26T10:48:07.863236+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:29)"} []
+[2025-01-26T10:49:19.767908+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:28)"} []
+[2025-01-26T10:50:17.856155+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:28)"} []
+[2025-01-26T10:54:18.096408+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:27)"} []
+[2025-01-26T10:54:33.848382+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:27)"} []
+[2025-01-26T10:55:03.756313+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:27)"} []
+[2025-01-26T10:56:56.570299+00:00] main.ERROR: Warning: Undefined array key "id" in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 31
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: Undefined array key \"id\" in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 31 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: Undefined array key \"id\" in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php on line 31 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T11:03:56.699325+00:00] main.ERROR: Warning: foreach() argument must be of type array|object, null given in /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php on line 70
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: foreach() argument must be of type array|object, null given in /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php on line 70 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: foreach() argument must be of type array|object, null given in /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php on line 70 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T11:04:31.938294+00:00] main.ERROR: Warning: Undefined property: Webkul\BlogManager\Model\BlogRepository::$searchResultsFactory in /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php on line 79
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Warning: Undefined property: Webkul\\BlogManager\\Model\\BlogRepository::$searchResultsFactory in /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php on line 79 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Exception(code: 0): Warning: Undefined property: Webkul\\BlogManager\\Model\\BlogRepository::$searchResultsFactory in /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php on line 79 at /var/www/html/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2025-01-26T11:06:37.533258+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:31)"} []
+[2025-01-26T11:08:54.537743+00:00] main.ERROR: Call to a member function getId() on array
+
+GraphQL (2:3)
+1: query {
+2:   getBlogs(pageSize: 10, currentPage: 1) {
+     ^
+3:     items {
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Call to a member function getId() on array at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (Error(code: 0): Call to a member function getId() on array at /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/GetBlogs.php:31)"} []
+[2025-01-26T11:16:57.751634+00:00] main.ERROR: Webkul\BlogManager\Model\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\BlogManager\Api\Data\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 28
+
+GraphQL (2:3)
+1: mutation {
+2:   createBlog(input: {
+     ^
+3:     title: "New Blog",
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Webkul\\BlogManager\\Model\\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\\BlogManager\\Api\\Data\\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 28 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (TypeError(code: 0): Webkul\\BlogManager\\Model\\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\\BlogManager\\Api\\Data\\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 28 at /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php:107)"} []
+[2025-01-26T11:23:52.611882+00:00] main.ERROR: Webkul\BlogManager\Model\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\BlogManager\Api\Data\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 30
+
+GraphQL (2:3)
+1: mutation {
+2:   createBlog(input: {
+     ^
+3:     title: "New Blog",
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Webkul\\BlogManager\\Model\\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\\BlogManager\\Api\\Data\\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 30 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (TypeError(code: 0): Webkul\\BlogManager\\Model\\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\\BlogManager\\Api\\Data\\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 30 at /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php:107)"} []
+[2025-01-26T11:24:04.173146+00:00] main.ERROR: Webkul\BlogManager\Model\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\BlogManager\Api\Data\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 30
+
+GraphQL (2:3)
+1: mutation {
+2:   createBlog(input: {
+     ^
+3:     title: "New Blog",
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Webkul\\BlogManager\\Model\\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\\BlogManager\\Api\\Data\\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 30 at /var/www/html/vendor/webonyx/graphql-php/src/Error/Error.php:170)
+[previous exception] [object] (TypeError(code: 0): Webkul\\BlogManager\\Model\\BlogRepository::save(): Argument #1 ($blog) must be of type Webkul\\BlogManager\\Api\\Data\\BlogInterface, array given, called in /var/www/html/app/code/Webkul/BlogManager/Model/Resolver/CreateBlog.php on line 30 at /var/www/html/app/code/Webkul/BlogManager/Model/BlogRepository.php:107)"} []
+[2025-01-26T11:26:09.109433+00:00] main.ERROR: Cannot query field "user_id" on type "Blog".
+
+GraphQL (5:7)
+4:       EntityId
+5:       user_id
+         ^
+6:       title
+ {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Cannot query field \"user_id\" on type \"Blog\". at /var/www/html/vendor/webonyx/graphql-php/src/Validator/Rules/FieldsOnCorrectType.php:43)"} []

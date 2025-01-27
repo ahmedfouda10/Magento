@@ -1,0 +1,43 @@
+# File: app/code/Webkul/BlogManager/etc/schema.graphqls
+# 1- query to fet getBlogs and getBlog
+type Query {
+    getBlog(EntityId: Int!): Blog @resolver(class: "Webkul\\BlogManager\\Model\\Resolver\\GetBlog")
+    getBlogs(pageSize: Int = 10, currentPage: Int = 1): BlogSearchResult @resolver(class: "Webkul\\BlogManager\\Model\\Resolver\\GetBlogs")
+}
+# 2- mutation to createBlog, updateBlog and deleteBlog
+type Mutation {
+    createBlog(input: BlogInput!): Blog @resolver(class: "Webkul\\BlogManager\\Model\\Resolver\\CreateBlog")
+    updateBlog(EntityId: Int!, input: BlogInput!): Blog @resolver(class: "Webkul\\BlogManager\\Model\\Resolver\\UpdateBlog")
+    deleteBlog(EntityId: Int!): Boolean @resolver(class: "Webkul\\BlogManager\\Model\\Resolver\\DeleteBlog")
+}
+
+type Blog {
+    EntityId: Int!
+    userId: Int!
+    title: String!
+    content: String!
+    status: Int!
+    createdAt: String!
+    updatedAt: String!
+    products: [String!]!
+}
+
+type BlogSearchResult {
+    items: [Blog!]!
+    totalCount: Int!
+    page_info: PageInfo!
+}
+
+type PageInfo {
+    currentPage: Int!
+    pageSize: Int!
+    totalPages: Int!
+}
+
+input BlogInput {
+    title: String!
+    content: String!
+    status: Int!
+    userId: Int!
+    products: [String!]!
+}
